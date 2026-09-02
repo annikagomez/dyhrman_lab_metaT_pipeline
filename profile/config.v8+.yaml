@@ -1,0 +1,13 @@
+# This config file is for cluster resources
+
+executor: slurm
+jobs: 5
+
+default-resources:
+  nodes: 1
+  ntasks: 1
+  cpus_per_task: 10
+  partition: "RM-shared"
+  mem_mb: 35000
+  runtime: 48h
+  slurm_account: "ees230009p"

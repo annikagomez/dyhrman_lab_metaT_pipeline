@@ -1,0 +1,29 @@
+name: salmon
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - boost-cpp=1.78.0=h5adbc97_2
+  - bzip2=1.0.8=h4bc722e_7
+  - icu=70.1=h27087fc_0
+  - libgcc=14.2.0=h77fa898_1
+  - libgcc-ng=14.2.0=h69a702a_1
+  - libgomp=14.2.0=h77fa898_1
+  - libhwloc=2.9.1=hd6dc26d_0
+  - libiconv=1.17=hd590300_2
+  - libjemalloc=5.3.0=h5888daf_1
+  - liblzma=5.6.3=hb9d3cd8_1
+  - liblzma-devel=5.6.3=hb9d3cd8_1
+  - libstdcxx=14.2.0=hc0a3c3a_1
+  - libstdcxx-ng=14.2.0=h4852527_1
+  - libxml2=2.10.3=hca2bb57_4
+  - libzlib=1.2.13=h4ab18f5_6
+  - salmon=1.10.3=hecfa306_0
+  - tbb=2021.9.0=hf52228f_0
+  - xz=5.6.3=hbcc6ac9_1
+  - xz-gpl-tools=5.6.3=hbcc6ac9_1
+  - xz-tools=5.6.3=hb9d3cd8_1
+  - zstd=1.5.6=ha6fb4c9_0
+prefix: /ocean/projects/ees240006p/agomez3/miniforge3/envs/salmon
